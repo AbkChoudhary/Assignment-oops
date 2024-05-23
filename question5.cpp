@@ -49,7 +49,7 @@ class bankaccount{
 };
 int main()
 {
-     bankaccount account("abhay", 123456789, "Savings", 10000.0);
+     bankaccount account("abk", 123456789, "Savings", 10000.0);
      account.deposit(1000.0);
      account.withdraw(500.0);
      account.display();
